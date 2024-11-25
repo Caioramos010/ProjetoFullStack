@@ -1,0 +1,60 @@
+.main__container{
+    text-align: center;
+    margin-top: 30px;
+}
+.container__dash{
+    margin: 30px 0 80px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+
+.bloco__dash{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 35%;
+    justify-content: center;
+    
+    border-radius: 10px;
+    background-color: var(--cor-modal);
+}
+.bloco__dash h4{
+    color: var(--cor-fonte);
+}
+.bloco__dash h3{
+    color: var(--cor-branco);
+}
+.bloco__moeda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    height: 25vh;
+    background-color: var(--cor-modal);
+}
+.bloco__moeda h5{
+    font-size: 18px;
+    color: var(--cor-fonte);
+
+}
+.bloco__moeda p{
+    color: var(--cor-branco);
+}
+.bloco__moeda img{
+    padding-bottom: 10px;
+    height: 50%;   
+    width: 30%;
+}
+.container__moedas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.title__moedas{
+    padding-bottom: 30px;
+}

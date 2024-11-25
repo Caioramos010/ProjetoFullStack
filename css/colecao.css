@@ -1,0 +1,124 @@
+.detalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detalhes button{
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--cor-fonte);
+    border: none;
+    margin-left: 1500px;
+}
+.detalhes__container{
+    color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    height: 80%;
+    width: 60%;
+    background-color: var(--cor-modal);
+    box-shadow: 6px 4px 16px  var(--cor-sombra-modal), -6px 6px 16px var(--cor-sombra-modal);
+
+}
+.detalhes__container textarea{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px var(--cor-branco) solid;
+    border-radius: 5px;
+}
+.detalhes__container textarea::placeholder{
+    color: var(--cor-branco);
+    font-family: var(--fonte);
+}
+.detalhes__container input{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 8px;
+    color: var(--cor-branco);
+    border: none;
+    border-bottom: 1px var(--cor-branco) solid;
+}
+.detalhes__container input::placeholder{
+    color: var(--cor-branco);
+    font-family: var(--fonte);
+}
+#upload{
+    border: none;
+    font-family: var(--fonte);
+
+}
+#upload::-webkit-file-upload-button{
+    background-color: var(--cor-fonte);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.buttons__form input{
+    margin: 10px;
+    border-radius: 8px;
+    width: 300px;
+    border-bottom: none;
+    background-color: var(--cor-fonte);
+    color: var(--cor-preto);
+}
+.coelacao__container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.coelacao__container table{
+    width: 90%;
+    border: 2px var(--cor-preto) solid;
+    border-collapse: none;
+    background-color: var(--cor-linha-principal);
+    text-align: center;
+    border-spacing: 0;
+    margin-bottom: 50px;
+}
+.coelacao__container th{
+    background-color: var(--cor-modal);
+    border: 1px var(--cor-preto) solid;
+    color: var(--cor-branco);
+}
+
+.coelacao__container td{
+    padding: 20px;
+    border: 1px var(--cor-preto) solid;
+    background-color: var(--cor-linha-principal);
+}
+.coelacao__container button{
+    background-color: var(--cor-fundo);
+    width: 30%;
+    padding: 6px;
+    border-radius: 8px;
+}
+.img__table{
+    width: 10%;
+}
+.id__table{
+    width: 5%;
+}
+.nome__table{
+    width: 20%;
+}
+.pais__table{
+    width: 10%;
+}
+.ano__table{
+    width: 5%;
+}
+.valor__table{
+    width: 5%;
+}
+.detalhes__table{
+    width: 20%;
+}
+.acoes__table{
+    width: 20%;
+}
