@@ -43,9 +43,13 @@
     background-color: var(--cor-fonte);
     border: none;
 }
+.form__cadastro button:hover{
+    cursor: pointer;
+}
 .form__cadastro a{
     padding-top: 30px;
     color: var(--cor-preto);
+    text-decoration: none;
 }
 .form__cadastro__user{
     align-items: center;

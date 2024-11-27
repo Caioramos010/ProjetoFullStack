@@ -55,6 +55,7 @@
 .form__edit__cadastro a{
     padding-top: 30px;
     color: var(--cor-preto);
+    text-decoration: none;
 }
 .form__edit__cadastro__user{
     align-items: center;
